@@ -1,0 +1,35 @@
+.box {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 20px;
+    list-style: none;
+  
+
+}
+
+.box li {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 7px;
+    padding: 13px;
+ 
+}
+
+.box img {
+    max-width: 170px;
+    max-height: 200px;
+    border-radius: 4px;
+}
+
+.titleProduct {
+    font-size: 1.3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.titlePrice {
+    font-size: 1.8rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
